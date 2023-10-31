@@ -1,0 +1,116 @@
+/* Reset some default styles and set a background color */
+.cont {
+    background-color: white;
+}
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav {
+    background-color: #333;
+}
+
+header nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section styles */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* About section styles */
+#about img {
+    max-width: 100%;
+    border: 5px solid #333;
+    border-radius: 50%;
+}
+
+/* Portfolio item styles */
+.skill {
+    padding-left: 20px;
+}
+.portfolio-item1 {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #d8e6db;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+}
+
+.portfolio-item h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.portfolio-item p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
